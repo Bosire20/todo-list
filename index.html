@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List Using CSS and Javascript</title>
+
+    <link href="style.css" rel="stylesheet"> <!-- Linking an external CSS file -->
+
+</head>
+
+<body>
+    <div id="myDIV" class="header">
+
+        <h2>Simple To Do List</h2>
+        <input type="text" id="myInput" placeholder="Add Task..."> <!-- Input field to add tasks -->
+        <span onclick="newElement()" class="addBtn">Add</span> <!-- Button to add tasks -->
+
+    </div>
+
+    <ul id="myUL">
+        <li>Go to the Gym</li> <!-- Predefined list item -->
+        <li class="checked">Pay bills</li> <!-- Predefined list item with 'checked' class -->
+        <li>Read a book</li> <!-- Predefined list item -->
+        <li>Organize Room</li> <!-- Predefined list item -->
+    </ul>
+
+    <script src="todolist.js"></script> <!-- Linking the external JavaScript file -->
+
+</body>
+</html>
